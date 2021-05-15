@@ -1,0 +1,53 @@
+{
+  "name": "lleditor-vue2",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/llveditor.js",
+  "description": "封装扩展ckeditor5 vue组件,扩展了pdf上传,视频上传等等",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "wpbuild": "webpack --mode production",
+    "develop": "webpack --mode development --watch"
+  },
+  "keywords": [
+    "wysiwyg",
+    "rich text",
+    "editor",
+    "html",
+    "contentEditable",
+    "editing",
+    "vue",
+    "vue.js",
+    "vue component",
+    "vue.js component",
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "pdf",
+    "video"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "ll-editor": "^1.0.3",
+    "lodash-es": "4.17.21"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.1.0",
+    "@ckeditor/ckeditor5-build-classic": "^22.0.0",
+    "@ckeditor/ckeditor5-dev-env": "^23.5.1",
+    "@ckeditor/ckeditor5-dev-utils": "^23.5.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
