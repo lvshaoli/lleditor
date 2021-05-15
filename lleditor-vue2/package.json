@@ -1,6 +1,6 @@
 {
   "name": "lleditor-vue2",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "dist/llveditor.js",
   "description": "封装扩展ckeditor5 vue组件,扩展了pdf上传,视频上传等等",
@@ -10,8 +10,11 @@
     "wpbuild": "webpack --mode production",
     "develop": "webpack --mode development --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvshaoli/lleditor.git"
+  },
   "keywords": [
-    "wysiwyg",
     "rich text",
     "editor",
     "html",

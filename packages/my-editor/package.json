@@ -1,9 +1,30 @@
 {
   "name": "ll-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自己扩充ckEditor5插件，视频上传，和pdf上传",
   "main": "dist/index.js",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvshaoli/lleditor.git"
+  },
+  "keywords": [
+    "wysiwyg",
+    "rich text",
+    "editor",
+    "html",
+    "contentEditable",
+    "editing",
+    "vue",
+    "vue.js",
+    "vue component",
+    "vue.js component",
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "pdf",
+    "video"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production --config webpack.config.js",
